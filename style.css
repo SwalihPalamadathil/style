@@ -1,0 +1,131 @@
+/* =========================
+   style.css
+   ========================= */
+
+/* Universal Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+/* Main */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #eaf4ff;
+    border-left: 8px solid #007bff;
+    padding: 20px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #dbeafe;
+}
+
+.data-table td {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Form Container */
+.form-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+/* Input Fields */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: 2px solid #007bff;
+}
+
+/* Submit Button */
+#submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
