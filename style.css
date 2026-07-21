@@ -26,7 +26,10 @@ header {
 
 /* Navigation */
 nav {
+    background-color: #ffffff;
     padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -36,24 +39,41 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
+/* Navigation Buttons */
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+/* Individual Colors */
+nav ul li a[href="#about"] {
+    background-color: #007bff;
+}
+
+nav ul li a[href="#courses"] {
+    background-color: #28a745;
+}
+
+nav ul li a[href="#register"] {
+    background-color: #ff9800;
 }
 
 nav ul li a:hover {
-    color: #38bdf8;
+    opacity: 0.8;
 }
 
 /* Main */
 main {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
 }
 
@@ -61,13 +81,26 @@ main {
 section {
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* About Section */
 #about {
     background-color: #eaf4ff;
     border-left: 8px solid #007bff;
-    padding: 20px;
+}
+
+/* Courses Section */
+#courses {
+    background-color: #eafaf1;
+    border-left: 8px solid #28a745;
+}
+
+/* Register Section */
+#register {
+    background-color: #fff8e6;
+    border-left: 8px solid #ff9800;
 }
 
 /* Paragraphs */
@@ -109,6 +142,8 @@ select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
 }
 
 input[type="text"]:focus,
@@ -124,8 +159,19 @@ select:focus {
     padding: 12px 20px;
     cursor: pointer;
     font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
 
 #submit-btn:hover {
     background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
