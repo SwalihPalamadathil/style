@@ -180,3 +180,33 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
+/* =========================
+   Responsive Design
+   ========================= */
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Main Content */
+    main {
+        width: 95%;
+        padding: 10px;
+    }
+
+    /* Form Container */
+    .form-container {
+        width: 100%;
+    }
+
+    /* Table */
+    .data-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
