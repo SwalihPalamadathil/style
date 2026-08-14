@@ -65,6 +65,8 @@ nav ul li a[href="#register"] {
     background-color: #ff9800;
 }
 
+
+
 nav ul li a:hover {
     opacity: 0.8;
 }
@@ -100,6 +102,12 @@ section {
 #register {
     background-color: #fff8e6;
     border-left: 8px solid #ff9800;
+}
+
+#themeToggle{
+     background-color: #fff8e6;
+    border-left: 8px solid #ff9800;
+
 }
 
 /* Paragraphs */
@@ -179,6 +187,63 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #111;
+}
+
+body.dark-mode section {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode #about,
+body.dark-mode #courses,
+body.dark-mode #register {
+    background-color: #333;
+}
+
+body.dark-mode .form-container {
+    background-color: #444;
+    color: white;
+}
+
+body.dark-mode .data-table th {
+    background-color: #555;
+    color: white;
+}
+
+body.dark-mode .data-table td {
+    color: white;
+    border-bottom-color: #777;
+}
+
+body.dark-mode label,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: white;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode select {
+    background-color: #555;
+    color: white;
+    border-color: #777;
+}
+
+body.dark-mode #themeToggle {
+    background-color: #444;
+    color: white;
+    border: 1px solid #777;
 }
 
 /* =========================

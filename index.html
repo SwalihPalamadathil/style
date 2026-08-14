@@ -18,7 +18,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#register">Register</a></li>
+            <li><button id="themeToggle">Toggle Theme</button></li>
         </ul>
+        
     </nav>
 
     <main>
@@ -90,6 +92,14 @@
     <footer>
         <p>&copy; 2026 TechAcademy | Designed for HTML & CSS Practical Lab</p>
     </footer>
+
+    <script>
+    const themeButton = document.getElementById("themeToggle");
+
+    themeButton.addEventListener("click", function () {
+        document.body.classList.add("dark-mode");
+    });
+</script>
 
 </body>
 </html>
